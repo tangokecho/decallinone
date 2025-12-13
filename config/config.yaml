@@ -1,0 +1,8 @@
+input_file: input/ideas.json
+output_base_dir: workhorse_projects/business_plans_pipeline/output
+logs_dir: logs
+model: llama3
+start_id: 1
+end_id: 10
+timeout_seconds: 120
+max_retries: 3
