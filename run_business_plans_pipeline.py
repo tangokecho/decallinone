@@ -10,6 +10,7 @@ from __future__ import annotations
 import argparse
 import datetime as dt
 import json
+import csv
 import logging
 import sys
 import time
@@ -88,9 +89,33 @@ def setup_logging(logs_dir: Path) -> Path:
 
 def load_ideas(path: Path) -> List[Dict[str, Any]]:
     """Load the ideas JSON file into memory."""
-
     if not path.exists():
         raise FileNotFoundError(f"Ideas file not found at {path}")
+
+    # Support either JSON or CSV input files. CSV must contain rows of `id,title`.
+    if path.suffix.lower() == ".csv":
+        ideas: List[Dict[str, Any]] = []
+        with path.open("r", encoding="utf-8") as handle:
+            reader = csv.reader(handle)
+            for row in reader:
+                if not row:
+                    continue
+                # Skip header or malformed rows
+                first = row[0].strip().lower()
+                if first == "id" or first == "":
+                    continue
+                try:
+                    idea_id = int(row[0].strip())
+                except Exception:
+                    # skip malformed id rows
+                    continue
+                title = row[1].strip() if len(row) > 1 else ""
+                ideas.append({"id": idea_id, "title": title})
+        if not isinstance(ideas, list):
+            raise ValueError("CSV ideas file must produce a list of idea objects")
+        return ideas
+
+    # Default: assume JSON
     with path.open("r", encoding="utf-8") as handle:
         try:
             ideas = json.load(handle)

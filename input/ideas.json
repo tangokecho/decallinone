@@ -1,5 +1,83 @@
 [
-  { "id": 1, "title": "AI chatbot for SMBs", "source": "268_list" },
+  {"id": 1, "title": "AI Business Chatbot Builder for Small Businesses with Automation Hooks"},
+  {"id": 2, "title": "Actionuity Integration Consulting for AI System Deployment"},
+  {"id": 3, "title": "AI-Enhanced Blog & Article Generation Studio for Thought Leaders"}
+]
+198,AI Speech Synthesis Studio
+199,AI Home Cleaning + Organization Planner
+200,AI Legal Consultation Assistant
+201,AI Chatbot Development Toolkit
+202,AI Personalized Playlist Generator
+203,AI Writing Assistant Service
+204,AI Image Recognition Tool for Media Teams
+205,AI Career Development Planner
+206,AI Remote Mental Health Therapy Assistant
+207,AI Image Manipulation Assistant
+208,AI Sleep Tracking + Insight Engine
+209,AI Legal Research Assistant
+210,AI Customer Segmentation Tool
+211,AI Home Security Recommendation Engine
+212,AI Marketing Strategy Advisor
+213,AI Product Design Recommendation Engine
+214,AI Goal Tracking Assistant
+215,AI Event Planning Assistant
+216,AI Customer Behavior Analysis Engine
+217,AI Home Renovation Recommendation Engine
+218,AI Financial Planning Advisor
+219,AI Speech-to-Text Productivity Tool
+220,AI Self-Care Recommendation Assistant
+221,AI VR Training Content Generator
+222,AI Data Analysis Assistant
+223,AI Mental Health Resource Generator
+224,AI Remote Graphic Design Service Assistant
+225,AI Customer Retention Intelligence Tool
+226,AI Home Energy Management Advisor
+227,AI Real Estate Support Assistant
+228,AI Predictive Analytics Engine
+229,AI Gardening Recommendation Engine
+230,AI Remote Design Consultation Assistant
+231,AI Customer Satisfaction Survey Generator
+232,AI Nutrition Tracking Assistant
+233,AI Art Instruction AI Tutor
+234,AI Customer Churn Predictor
+235,AI Home Workout Planner
+236,AI Remote Bookkeeping Assistant
+237,AI Marketing Automation Engine
+238,AI Financial Literacy Resource Generator
+239,AI Public Speaking Course Assistant
+240,AI Competitive Analysis Tool
+241,AI Financial Planning Generator
+242,AI Entrepreneurship Course Assistant
+243,AI Content Marketing Strategy Engine
+244,AI Mental Health Journaling Assistant
+245,AI VR Training Platform Support Tool
+246,AI Customer Sentiment Analysis Engine
+247,AI Career Assessment Generator
+248,AI Remote Social Media Manager
+249,AI Sentiment Analysis for Writing + Content
+250,AI Sleep Improvement Recommendation Engine
+251,AI Copywriting Service Assistant
+252,AI Customer Lifetime Value Calculator
+253,AI Stress Management Recommendation Engine
+254,AI Remote Software Development Assistant
+255,AI Data Visualization Assistant
+256,AI Meditation Recommendation Engine
+257,AI Music Instruction Assistant
+258,AI Keyword Research Assistant
+259,AI Fashion Trend Analysis Engine
+260,AI Web Development Assistant
+261,AI Social Media Sentiment Analyzer
+262,AI Time Management Recommendation Engine
+263,AI Photography Instruction Assistant
+264,AI Customer Feedback Management Assistant
+265,AI Beauty Trend Analysis Engine
+266,AI Video Production Assistant
+267,AI Predictive Maintenance Assistant
+268,AI Writing Improvement Recommendation Engine
+
+
+"id": 1, "title": "AI chatbot for SMBs", "source": "268_list" },
   { "id": 2, "title": "AI integration consulting", "source": "268_list" },
-  { "id": 3, "title": "Automated podcast summarizer", "source": "268_list" }
+  { "id": 3, "title": "Automated podcast summarizer", "source": "268_list" 
+}
 ]
