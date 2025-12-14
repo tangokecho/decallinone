@@ -1,0 +1,13 @@
+model: "llama3"
+paths:
+  input_file: "input/ideas.json"
+  output_dir: "output"
+  logs_dir: "logs"
+processing:
+  start_id: 1
+  end_id: 10
+  all: false
+# Optional tuning
+timeout_seconds: 120
+max_retries: 3
+retry_backoff: 2.0
